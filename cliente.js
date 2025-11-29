@@ -8,7 +8,7 @@ const BOT_TOKEN = '7499168477:AAFS14MNklz1lERmgDufQkSXefOKyGgJh-E';  // Reemplaz
 const bot = new Telegraf(BOT_TOKEN);
 
 // Chat IDs de los usuarios a los que enviarás el mensaje
-const chatIds = ['8481277251', '6183081769', '6951315808'];  // Reemplaza con los chat IDs de los usuarios
+const chatIds = ['8481277251', '6183081769', '6951315808',];  // Reemplaza con los chat IDs de los usuarios
 
 // Configuración del servidor Express
 app.use(bodyParser.json());
