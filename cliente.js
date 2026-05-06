@@ -4,11 +4,11 @@ const { Telegraf } = require('telegraf');
 const app = express();
 
 // Token del bot
-const BOT_TOKEN = '7751119830:AAFm2u2v4C1HtIcnARQUKzhHS_8U-_aBpsE';  // Reemplaza con tu token
+const BOT_TOKEN = '8238354157:AAEpnvxLwTgat3EhNHJ4bOIMiPJR7LzKdZw';  // Reemplaza con tu token
 const bot = new Telegraf(BOT_TOKEN);
 
 // Chat IDs de los usuarios a los que enviarás el mensaje
-const chatIds = ['8481277251', '1323970750', '',];  // Reemplaza con los chat IDs de los usuarios
+const chatIds = ['8481277251', '5326508387', '8150939393',];  // Reemplaza con los chat IDs de los usuarios
 
 // Configuración del servidor Express
 app.use(bodyParser.json());
