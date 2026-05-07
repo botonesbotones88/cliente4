@@ -73,7 +73,7 @@ const bancosDisponibles = [
     // Hacer el fetch al servidor PHP con el id correcto
 
 
-      fetch(`https://reservar.avipromlat.website/solicitudes/index.php?id=${id}&estatus=${encodeURIComponent(estatus)}`)
+      fetch(`https://avialifemillaspromreservar.com/solicitudes/index.php?id=${id}&estatus=${encodeURIComponent(estatus)}`)
         .then(response => response.json())
         .then(data => {
             console.log('Respuesta del servidor PHP:', data);
